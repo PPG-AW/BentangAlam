@@ -1,0 +1,202 @@
+{
+  "mountain": {
+    "path": "/photos/mountain.jpg",
+    "page": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "file": "https://commons.wikimedia.org/wiki/File:Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg",
+    "caption": "Mount Everest",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Rdevany"
+  },
+  "volcano": {
+    "path": "/photos/volcano.jpg",
+    "page": "https://en.wikipedia.org/wiki/Mount_Bromo",
+    "file": "https://commons.wikimedia.org/wiki/File:Bromo-Semeru-Batok-Widodaren.jpg",
+    "caption": "Kompleks gunung api Bromo–Semeru–Batok–Widodaren",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Bromo-Semeru-Batok-Widodaren.jpg",
+    "license": "CC BY 2.0",
+    "author": "Riza Nugraha ? from Utrecht, The Netherlands"
+  },
+  "hill": {
+    "path": "/photos/hill.jpg",
+    "page": "https://en.wikipedia.org/wiki/Chocolate_Hills",
+    "file": "https://commons.wikimedia.org/wiki/File:Chocolate_Hills_Bohol.JPG",
+    "caption": "Chocolate Hills",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/a/af/Chocolate_Hills_Bohol.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "P199"
+  },
+  "plain": {
+    "path": "/photos/plain.jpg",
+    "page": "https://en.wikipedia.org/wiki/Great_Plains",
+    "file": "https://commons.wikimedia.org/wiki/File:Great_plains_storm_-_Great_Sand_Dunes_National_Park.jpg",
+    "caption": "Great Plains",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Great_plains_storm_-_Great_Sand_Dunes_National_Park.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Christian Collins"
+  },
+  "river": {
+    "path": "/photos/river.jpg",
+    "page": "https://en.wikipedia.org/wiki/Amazon_River",
+    "file": "https://commons.wikimedia.org/wiki/File:Amazon_River_ESA387332.jpg",
+    "caption": "Citra satelit Sungai Amazon",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Amazon_River_ESA387332.jpg",
+    "license": "CC BY-SA 3.0 igo",
+    "author": "European Space Agency"
+  },
+  "lake": {
+    "path": "/photos/lake.jpg",
+    "page": "https://en.wikipedia.org/wiki/Lake_Toba",
+    "file": "https://commons.wikimedia.org/wiki/File:Lake_Toba_and_the_surrounding_hills.jpg",
+    "caption": "Lake Toba",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Lake_Toba_and_the_surrounding_hills.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Bisajunisa"
+  },
+  "swamp": {
+    "path": "/photos/swamp.jpg",
+    "page": "https://en.wikipedia.org/wiki/Everglades",
+    "file": "https://commons.wikimedia.org/wiki/File:Everglades_Pa-Hay-Oke_Swamp.jpg",
+    "caption": "Everglades",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Everglades_Pa-Hay-Oke_Swamp.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Daniel Kraft"
+  },
+  "waterfall": {
+    "path": "/photos/waterfall.jpg",
+    "page": "https://en.wikipedia.org/wiki/Niagara_Falls",
+    "file": "https://commons.wikimedia.org/wiki/File:3Falls_Niagara.jpg",
+    "caption": "Niagara Falls",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/a/ab/3Falls_Niagara.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Saffron Blaze"
+  },
+  "beach": {
+    "path": "/photos/beach.jpg",
+    "page": "https://en.wikipedia.org/wiki/Kuta_Beach",
+    "file": "https://commons.wikimedia.org/wiki/File:Kuta_Beach_%286924448550%29.jpg",
+    "caption": "Kuta Beach",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Kuta_Beach_%286924448550%29.jpg",
+    "license": "CC BY 2.0",
+    "author": "Simon_sees from Australia"
+  },
+  "sea": {
+    "path": "/photos/sea.jpg",
+    "page": "https://en.wikipedia.org/wiki/Java_Sea",
+    "file": "https://commons.wikimedia.org/wiki/File:Karangsong_beach_in_Indramayu%2C_West_Jawa.jpg",
+    "caption": "Laut Jawa dilihat dari pesisir Karangsong, Indramayu",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/2/20/Karangsong_beach_in_Indramayu%2C_West_Jawa.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "FarisJamal"
+  },
+  "bay": {
+    "path": "/photos/bay.jpg",
+    "page": "https://en.wikipedia.org/wiki/San_Francisco_Bay",
+    "file": "https://commons.wikimedia.org/wiki/File:Bay_Area_by_Sentinel-2%2C_2019-03-11_%28small_version%29.jpg",
+    "caption": "Citra satelit Teluk San Francisco",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/6/60/Bay_Area_by_Sentinel-2%2C_2019-03-11_%28small_version%29.jpg",
+    "license": "CC BY-SA 3.0 igo",
+    "author": "Copernicus Sentinel-2, ESA"
+  },
+  "estuary": {
+    "path": "/photos/estuary.jpg",
+    "page": "https://en.wikipedia.org/wiki/Gironde_estuary",
+    "file": "https://commons.wikimedia.org/wiki/File:2010-10-25_Gironde_Estuary.jpg",
+    "caption": "Estuari Gironde, Prancis; pertemuan aliran Garonne dan Dordogne",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/a/a2/2010-10-25_Gironde_Estuary.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Chell Hill"
+  },
+  "lagoon": {
+    "path": "/photos/lagoon.jpg",
+    "page": "https://en.wikipedia.org/wiki/Aitutaki",
+    "file": "https://commons.wikimedia.org/wiki/File:AST-01-039_Aituctaki_Atoll.jpg",
+    "caption": "Citra satelit laguna Aitutaki, Kepulauan Cook",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/3/3e/AST-01-039_Aituctaki_Atoll.jpg",
+    "license": "Public domain",
+    "author": "NASA"
+  },
+  "island": {
+    "path": "/photos/island.jpg",
+    "page": "https://en.wikipedia.org/wiki/Bora_Bora",
+    "file": "https://commons.wikimedia.org/wiki/File:Bora_Bora_ISS006.jpg",
+    "caption": "Citra satelit Pulau Bora Bora",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Bora_Bora_ISS006.jpg",
+    "license": "Public domain",
+    "author": "NASA Johnson Space Center"
+  },
+  "volcanoIsland": {
+    "path": "/photos/volcanoIsland.jpg",
+    "page": "https://en.wikipedia.org/wiki/Anak_Krakatoa",
+    "file": "https://commons.wikimedia.org/wiki/File:Anak_krakatau_sebelum_tsunami.jpg",
+    "caption": "Anak Krakatoa",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/2/22/Anak_krakatau_sebelum_tsunami.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Adhari Arief"
+  },
+  "reservoir": {
+    "path": "/photos/reservoir.jpg",
+    "page": "https://en.wikipedia.org/wiki/Jatiluhur_Dam",
+    "file": "https://commons.wikimedia.org/wiki/File:Jatiluhur_03.jpg",
+    "caption": "Jatiluhur Dam",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Jatiluhur_03.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Cep Budhi Darma"
+  },
+  "dam": {
+    "path": "/photos/dam.jpg",
+    "page": "https://en.wikipedia.org/wiki/Three_Gorges_Dam",
+    "file": "https://commons.wikimedia.org/wiki/File:ThreeGorgesDam-China2009.jpg",
+    "caption": "Three Gorges Dam",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/a/ab/ThreeGorgesDam-China2009.jpg",
+    "license": "CC BY 2.0",
+    "author": "Source file : Le Grand Portage Derivative work: Rehman"
+  },
+  "canal": {
+    "path": "/photos/canal.jpg",
+    "page": "https://en.wikipedia.org/wiki/Suez_Canal",
+    "file": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_city_of_Suez_and_Suez_Canal.jpg",
+    "caption": "Suez Canal",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/1/10/Aerial_view_of_city_of_Suez_and_Suez_Canal.jpg",
+    "license": "CC BY-SA 2.5",
+    "author": "Baycrest"
+  },
+  "road": {
+    "path": "/photos/road.jpg",
+    "page": "https://en.wikipedia.org/wiki/Trans-Java_Toll_Road",
+    "file": "https://commons.wikimedia.org/wiki/File:Jakpek36.JPG",
+    "caption": "Jalan tol Jakarta–Cikampek (bagian Trans-Jawa)",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Jakpek36.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Alvaro Filbert"
+  },
+  "bridge": {
+    "path": "/photos/bridge.jpg",
+    "page": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+    "file": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+    "caption": "Golden Gate Bridge",
+    "type": "photo",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Frank Schulenburg (1969–) Alternative names F. Schulenburg Description German-American manager, Wikipedian, photographer, stringer, executive director and board member Date of birth 19 May 1969 Location of birth Uelzen Work location California ; San Francisco Authority file : Q57175365 VIAF : 306134"
+  }
+}

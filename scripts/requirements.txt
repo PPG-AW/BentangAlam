@@ -1,0 +1,4 @@
+# Hanya untuk skrip pengunduh/penyusun aset opsional; game tidak memerlukan Python.
+requests
+beautifulsoup4
+Pillow
