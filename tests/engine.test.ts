@@ -11,3 +11,5 @@ test('foto faktual dan materi tetap tersedia lokal',()=>{assert.equal(Object.key
 test('tidak ada konektor database, SQL, API, atau rahasia server',()=>{assert.ok(!existsSync('database'));assert.ok(!existsSync('app/api'));assert.ok(!existsSync('lib/server.ts'));assert.ok(!readFileSync('package.json','utf8').includes('@neondatabase'));});
 
 test('Submit di perjalanan ditolak; timeout di luar zona -100',()=>{const p=newPlayer('A',makeBattleDecks()[0]);assert.equal(p.cell,-1);assert.equal(submitPlayer(p,'submit'),p);const r=submitPlayer({...p,remaining:0},'timeout');assert.equal(r.score,-100);assert.equal(r.history[0].answer,'Belum mencapai zona jawaban');});
+
+test('durasi 60, 90, 120 detik dipertahankan pada soal berikutnya',()=>{for(const duration of [60,90,120]){let p=newPlayer('A',makeBattleDecks()[0],1000,duration);assert.equal(p.remaining,duration);assert.equal(p.deadline,1000+duration*1000);p.cell=0;p=advancePlayer(submitPlayer(p,'submit'),5000);assert.equal(p.remaining,duration);assert.equal(p.deadline,5000+duration*1000);assert.equal(p.duration,duration);}});

@@ -100,14 +100,14 @@
     "author": "FarisJamal"
   },
   "bay": {
-    "path": "/photos/bay.jpg",
-    "page": "https://en.wikipedia.org/wiki/San_Francisco_Bay",
-    "file": "https://commons.wikimedia.org/wiki/File:Bay_Area_by_Sentinel-2%2C_2019-03-11_%28small_version%29.jpg",
-    "caption": "Citra satelit Teluk San Francisco",
+    "path": "/photos/bay-kelas.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wineglass_Bay_from_Lookout.jpg",
+    "file": "https://commons.wikimedia.org/wiki/File:Wineglass_Bay_from_Lookout.jpg",
+    "caption": "Teluk Wineglass, Tasmania, Australia; laut menjorok ke daratan",
     "type": "photo",
-    "download": "https://upload.wikimedia.org/wikipedia/commons/6/60/Bay_Area_by_Sentinel-2%2C_2019-03-11_%28small_version%29.jpg",
-    "license": "CC BY-SA 3.0 igo",
-    "author": "Copernicus Sentinel-2, ESA"
+    "download": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Wineglass_Bay_from_Lookout.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "JJ Harrison"
   },
   "estuary": {
     "path": "/photos/estuary.jpg",
@@ -120,24 +120,24 @@
     "author": "Chell Hill"
   },
   "lagoon": {
-    "path": "/photos/lagoon.jpg",
-    "page": "https://en.wikipedia.org/wiki/Aitutaki",
-    "file": "https://commons.wikimedia.org/wiki/File:AST-01-039_Aituctaki_Atoll.jpg",
-    "caption": "Citra satelit laguna Aitutaki, Kepulauan Cook",
+    "path": "/photos/lagoon-kelas.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lagoa_de_Obidos.jpg",
+    "file": "https://commons.wikimedia.org/wiki/File:Lagoa_de_Obidos.jpg",
+    "caption": "Laguna Óbidos, Portugal; perairan di balik penghalang pasir",
     "type": "photo",
-    "download": "https://upload.wikimedia.org/wikipedia/commons/3/3e/AST-01-039_Aituctaki_Atoll.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/9/92/Lagoa_de_Obidos.jpg",
     "license": "Public domain",
-    "author": "NASA"
+    "author": "Dipl. Ing. Guido Grassow"
   },
   "island": {
-    "path": "/photos/island.jpg",
-    "page": "https://en.wikipedia.org/wiki/Bora_Bora",
-    "file": "https://commons.wikimedia.org/wiki/File:Bora_Bora_ISS006.jpg",
-    "caption": "Citra satelit Pulau Bora Bora",
+    "path": "/photos/island-kelas.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BaliLandsat001.jpg",
+    "file": "https://commons.wikimedia.org/wiki/File:BaliLandsat001.jpg",
+    "caption": "Citra satelit Pulau Bali, Indonesia",
     "type": "photo",
-    "download": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Bora_Bora_ISS006.jpg",
-    "license": "Public domain",
-    "author": "NASA Johnson Space Center"
+    "download": "https://upload.wikimedia.org/wikipedia/commons/e/eb/BaliLandsat001.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Global Land Cover Facility (GLCF); っ (Wikipedia Jepang)"
   },
   "volcanoIsland": {
     "path": "/photos/volcanoIsland.jpg",
@@ -170,14 +170,14 @@
     "author": "Source file : Le Grand Portage Derivative work: Rehman"
   },
   "canal": {
-    "path": "/photos/canal.jpg",
-    "page": "https://en.wikipedia.org/wiki/Suez_Canal",
-    "file": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_city_of_Suez_and_Suez_Canal.jpg",
-    "caption": "Suez Canal",
+    "path": "/photos/canal-kelas.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Corinth_Canal_bridge.jpg",
+    "file": "https://commons.wikimedia.org/wiki/File:Corinth_Canal_bridge.jpg",
+    "caption": "Kanal Korintus, Yunani; saluran buatan yang digali menembus daratan",
     "type": "photo",
-    "download": "https://upload.wikimedia.org/wikipedia/commons/1/10/Aerial_view_of_city_of_Suez_and_Suez_Canal.jpg",
-    "license": "CC BY-SA 2.5",
-    "author": "Baycrest"
+    "download": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Corinth_Canal_bridge.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Tesla Delacroix"
   },
   "road": {
     "path": "/photos/road.jpg",

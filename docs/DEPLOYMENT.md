@@ -27,7 +27,7 @@ Buat repository kosong pada akun Anda, kemudian jalankan:
 ```bash
 git init
 git add .
-git commit -m "Battle 2x2 tanpa database dengan Submit mandiri"
+git commit -m "Battle petualangan joystick untuk kelas"
 git branch -M main
 # Ganti URL berikut dengan URL repository Anda:
 git remote add origin https://github.com/NAMA-ANDA/battle-bentang-alam.git
@@ -55,7 +55,7 @@ Jika memperbarui proyek Vercel dari versi lama, hapus konfigurasi environment va
 - Setiap sisi memiliki pertanyaan, timer, dan Submit sendiri.
 - Submit benar +200 dan salah −100, termasuk skor negatif.
 - Lanjut kiri tidak mengubah nomor soal kanan.
-- Tap kiri/kanan bisa berjalan pada sisi masing-masing, termasuk dua tap serentak.
+- Joystick kiri/kanan berjalan mandiri, termasuk dua sentuhan serentak.
 - Menggeser arena hanya mengubah kamera; tidak memberi perintah jalan baru.
 - Setelah 10 soal, skor total dan unduhan CSV tersedia.
 - Tidak terdapat permintaan ke `/api/` atau layanan database saat bermain.
@@ -64,7 +64,7 @@ Jika memperbarui proyek Vercel dari versi lama, hapus konfigurasi environment va
 
 **3D lambat/blank:** gunakan browser modern, aktifkan hardware acceleration jika didukung, tutup tab berat, atau gunakan mode aksesibilitas 2D.
 
-**Tap tidak berjalan:** tap hanya pada permukaan platform di arena, bukan panel teks/daftar pilihan. Geser lebih dari 8 piksel dianggap kontrol kamera. Pastikan soal belum disubmit dan game tidak dijeda.
+**Avatar tidak berjalan:** geser joystick bulat di bawah arena, bukan permukaan 3D. Permukaan 3D khusus kamera. Pastikan soal belum disubmit dan game tidak dijeda.
 
 **Kedua siswa tidak bisa menyentuh bersamaan:** periksa jumlah titik sentuh dan driver PID. Aplikasi sudah memakai Pointer Events terpisah per arena, tetapi kemampuan fisik layar tetap menentukan dukungan multitouch.
 

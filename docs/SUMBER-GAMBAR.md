@@ -93,13 +93,14 @@ Laut Jawa dilihat dari pesisir Karangsong, Indramayu
 - Lokal: `public/photos/sea.jpg`
 
 ## bay
-Citra satelit Teluk San Francisco
+Teluk Wineglass, Tasmania, Australia; laut menjorok ke daratan
 
-- Pembuat: Copernicus Sentinel-2, ESA
-- Lisensi pada halaman sumber: CC BY-SA 3.0 igo
-- Halaman berkas/ketentuan lengkap: https://commons.wikimedia.org/wiki/File:Bay_Area_by_Sentinel-2%2C_2019-03-11_%28small_version%29.jpg
-- Konteks objek: https://en.wikipedia.org/wiki/San_Francisco_Bay
-- Lokal: `public/photos/bay.jpg`
+- Pembuat: JJ Harrison
+- Lisensi: CC BY-SA 3.0
+- Halaman berkas: https://commons.wikimedia.org/wiki/File:Wineglass_Bay_from_Lookout.jpg
+- Berkas asli: https://upload.wikimedia.org/wikipedia/commons/e/e9/Wineglass_Bay_from_Lookout.jpg
+- Lokal: `public/photos/bay-kelas.jpg`
+- Perubahan: salinan pratinjau dari berkas Commons; proporsi gambar dipertahankan. Tidak dihasilkan AI.
 
 ## estuary
 Estuari Gironde, Prancis; pertemuan aliran Garonne dan Dordogne
@@ -111,22 +112,24 @@ Estuari Gironde, Prancis; pertemuan aliran Garonne dan Dordogne
 - Lokal: `public/photos/estuary.jpg`
 
 ## lagoon
-Citra satelit laguna Aitutaki, Kepulauan Cook
+Laguna Óbidos, Portugal; perairan di balik penghalang pasir
 
-- Pembuat: NASA
-- Lisensi pada halaman sumber: Public domain
-- Halaman berkas/ketentuan lengkap: https://commons.wikimedia.org/wiki/File:AST-01-039_Aituctaki_Atoll.jpg
-- Konteks objek: https://en.wikipedia.org/wiki/Aitutaki
-- Lokal: `public/photos/lagoon.jpg`
+- Pembuat: Dipl. Ing. Guido Grassow
+- Lisensi: Public domain
+- Halaman berkas: https://commons.wikimedia.org/wiki/File:Lagoa_de_Obidos.jpg
+- Berkas asli: https://upload.wikimedia.org/wikipedia/commons/9/92/Lagoa_de_Obidos.jpg
+- Lokal: `public/photos/lagoon-kelas.jpg`
+- Perubahan: salinan pratinjau dari berkas Commons, dipotong untuk mengurangi langit/bangunan dan menonjolkan laguna serta penghalang pasir. Tidak dihasilkan AI.
 
 ## island
-Citra satelit Pulau Bora Bora
+Citra satelit Pulau Bali, Indonesia
 
-- Pembuat: NASA Johnson Space Center
-- Lisensi pada halaman sumber: Public domain
-- Halaman berkas/ketentuan lengkap: https://commons.wikimedia.org/wiki/File:Bora_Bora_ISS006.jpg
-- Konteks objek: https://en.wikipedia.org/wiki/Bora_Bora
-- Lokal: `public/photos/island.jpg`
+- Pembuat: Global Land Cover Facility (GLCF); っ (Wikipedia Jepang)
+- Lisensi: CC BY-SA 3.0
+- Halaman berkas: https://commons.wikimedia.org/wiki/File:BaliLandsat001.jpg
+- Berkas asli: https://upload.wikimedia.org/wikipedia/commons/e/eb/BaliLandsat001.jpg
+- Lokal: `public/photos/island-kelas.jpg`
+- Perubahan: salinan pratinjau dari berkas Commons; proporsi gambar dipertahankan. Tidak dihasilkan AI.
 
 ## volcanoIsland
 Anak Krakatoa
@@ -156,13 +159,14 @@ Three Gorges Dam
 - Lokal: `public/photos/dam.jpg`
 
 ## canal
-Suez Canal
+Kanal Korintus, Yunani; saluran buatan yang digali menembus daratan
 
-- Pembuat: Baycrest
-- Lisensi pada halaman sumber: CC BY-SA 2.5
-- Halaman berkas/ketentuan lengkap: https://commons.wikimedia.org/wiki/File:Aerial_view_of_city_of_Suez_and_Suez_Canal.jpg
-- Konteks objek: https://en.wikipedia.org/wiki/Suez_Canal
-- Lokal: `public/photos/canal.jpg`
+- Pembuat: Tesla Delacroix
+- Lisensi: CC BY-SA 4.0
+- Halaman berkas: https://commons.wikimedia.org/wiki/File:Corinth_Canal_bridge.jpg
+- Berkas asli: https://upload.wikimedia.org/wikipedia/commons/5/5f/Corinth_Canal_bridge.jpg
+- Lokal: `public/photos/canal-kelas.jpg`
+- Perubahan: salinan pratinjau dari berkas Commons; proporsi gambar dipertahankan. Tidak dihasilkan AI.
 
 ## road
 Jalan tol Jakarta–Cikampek (bagian Trans-Jawa)
@@ -187,6 +191,14 @@ Gunung bawah laut, guyot, dan palung laut menggunakan diagram penampang edukatif
 
 Konsep rujukan: https://oceanservice.noaa.gov/facts/seamounts.html dan https://oceanexplorer.noaa.gov/facts/trenches.html.
 
-Untuk label “patahan samudra tengah”, gambar dekoratif lama dihapus dan diganti catatan agar merujuk gambar buku halaman cetak 63. Tidak diberikan foto atau diagram spesifik yang belum diverifikasi.
+Untuk label “patahan samudra tengah”, digunakan cuplikan langsung Gambar 3.7 buku halaman cetak 63, termasuk label asli dan konteks bentukan dasar laut di sekitarnya.
 
 Ilustrasi hero pada beranda hanya menggambarkan arena game fiktif, bukan contoh foto bentang alam.
+## Patahan samudra tengah — cuplikan buku
+
+- Lokal: `public/illustrations/ridge-buku-h63.png`.
+- Sumber: Gambar 3.7 pada IPAS SD/MI Kelas IV Edisi Revisi 2023, Amalia Fitri dkk., Kemdikbudristek, halaman cetak 63 (PDF halaman 71).
+- Buku: https://static-sc.cloudapp.web.id/content/pdf/bukuteks/kurikulum21/IPAS_BS_KLS_IV_Rev.pdf#page=71
+- Cuplikan langsung bagian dasar laut, mencakup label asli dan bentukan di sekitarnya; bukan gambar AI atau penggambaran ulang.
+- Hak cipta tetap pada pemegang hak buku. Reproduksi terbatas untuk konteks pembelajaran ini; tidak dinyatakan sebagai public domain atau CC.
+- Label mengikuti istilah yang tercetak pada buku; tidak dipakai untuk soal definisi.

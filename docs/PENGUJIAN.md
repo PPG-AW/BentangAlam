@@ -1,54 +1,29 @@
-# Hasil Pengujian — Halaman Rintangan Tanpa Database
+# Pengujian — Joystick & Waktu Pilihan Guru
 
-## Hasil aktual
+- Typecheck dan ESLint lulus tanpa peringatan.
+- 18 pengujian unit lulus.
+- Build produksi berhasil.
+- 12 pengujian Chromium lulus.
 
-| Pemeriksaan | Hasil |
-|---|---|
-| TypeScript / `npm run typecheck` | Lulus |
-| ESLint / `npm run lint` | Lulus tanpa peringatan |
-| `npm test` | 17 pengujian unit lulus |
-| `npm run build` | Production build berhasil; halaman statis, tanpa API |
-| `npm run test:e2e` | 7 pengujian browser Chromium lulus |
+## Cakupan unit
 
-## Pengujian unit
+Bank sepuluh soal unik/empat opsi/satu benar, dua urutan tanpa pengulangan, +200/−100 dan pencegahan Submit ganda, total +2000/−1000, progres/deadline independen, timeout, fallback, aset lokal, tidak ada layanan database, Submit di luar zona, serta durasi 60/90/120 yang dipertahankan saat lanjut. Pengujian lain mencakup tata letak tekstur, empat zona sudut, gerak relatif kamera/diagonal/batas, tabrakan tembok/pohon, jaring 30%, dan keterjangkauan semua zona melalui BFS.
 
-- Tepat 10 soal unik, empat opsi unik per soal, dan tepat satu benar.
-- Dua urutan tanpa pengulangan; soal pada nomor yang sama selalu berbeda antara sisi.
-- Benar +200, salah −100, dan Submit ganda tidak dinilai lagi.
-- Sepuluh benar menghasilkan +2000, sepuluh salah menghasilkan −1000; semua soal tetap dapat diselesaikan.
-- Progres dan deadline dua pemain independen; tiap soal dimulai dari 60 detik.
-- Waktu habis dinilai sekali berdasarkan pilihan saat itu.
-- Grid fallback dibatasi empat sel.
-- Foto/citra dan materi tersedia lokal beserta sumber/atribusi.
-- Tidak ada folder database/API, helper server, atau dependensi koneksi database.
-- Tata letak teks pada tekstur platform tetap muat.
-- Koordinat empat zona sudut; area perjalanan tidak dianggap jawaban.
-- Submit di luar zona ditolak; timeout di luar zona −100.
-- Tabrakan tembok/pohon, kecepatan jaring 30%, dan keterjangkauan semua zona lewat jalur bebas (BFS).
-- Gerak kontinu relatif kamera dan diagonal ternormalisasi.
-- Batas arena dan kaki model menapak pada permukaan platform.
+## Cakupan browser (12 kasus)
 
-## Tujuh pengujian browser
+1. Empat pilihan per sisi, pertanyaan berbeda, timer default, tanpa API/database.
+2. Submit +200/−100, lanjut mandiri, Submit ganda ditolak.
+3. Timeout dinilai satu kali; lanjut mengembalikan durasi.
+4. Kedua pemain menyelesaikan sepuluh soal; skor, pemenang, rincian 20 jawaban, CSV.
+5. Joystick berjalan kontinu tanpa mengubah kamera; sisi lain diam; lepas berhenti; tap arena tidak berjalan; geser arena mengubah kamera tanpa memindahkan avatar.
+6. Tembok memblokir avatar; peringatan, mode lihat semua, peta zona/tembok/jaring.
+7. Dua joystick dan kamera disentuh bersamaan melalui Chrome DevTools Protocol; kamera sisi lain tetap; touch-cancel menghentikan gerak; pause membekukan timer.
+8–10. Pilihan waktu 60, 90, dan 120 detik tampil benar dan kembali penuh pada soal berikutnya.
+11. Decode seluruh 24 gambar materi dan 40 gambar opsi soal pada browser, bukan sekadar memeriksa keberadaan berkas.
 
-1. Dua arena berisi empat opsi, pertanyaan berbeda, timer 01:00, tanpa request API/database.
-2. Submit benar/salah memberi poin sesuai; penilaian ganda dicegah; lanjut kiri tidak mengubah kanan.
-3. Timer 60 detik habis → otomatis dinilai satu kali; lanjut soal mengembalikan timer 01:00. Waktu virtual digunakan.
-4. Kedua pemain menyelesaikan 10 soal tanpa pengulangan; skor +2000 dan −1000, pemenang, rincian 20 jawaban, dan CSV benar.
-5. Tap tanah menggerakkan avatar kontinu; Submit terkunci di luar zona dan sisi kanan tidak ikut bergerak.
-6. Tembok menghentikan avatar; peringatan jalan terhalang, kamera lihat-semua, empat zona, enam tembok, empat jaring, dan papan melayang diperiksa.
-7. Dua tap melalui Chrome DevTools Protocol menggerakkan kedua avatar secara bersamaan; pause membekukan kedua timer.
+Screenshot pada `test-results/halaman-rintangan.png` dan `test-results/materi-lengkap.png`.
 
-Tes logika skor menggunakan bank kode lokal; bukan database. Perubahan arsitektur telah menghapus tes PostgreSQL dan integrasi server versi lama.
-
-## Batasan
-
-- Belum diuji pada PID fisik sekolah, semua GPU, Safari, atau semua driver multitouch. Uji perangkat sebelum pembelajaran.
-- Hasil disimpan hanya dalam memori halaman; refresh menghapus progres. Tidak ada resume sesi.
-- Bank soal tersedia dalam kode browser. Ini media pembelajaran terpandu, bukan platform ujian berisiko tinggi.
-- Mode aksesibilitas 2D digunakan pada sebagian tes alur kuis agar tidak bergantung kecepatan GPU; tiga tes terakhir memeriksa dunia 3D sesungguhnya.
-- Tidak dilakukan push atau deployment ke akun GitHub/Vercel pengguna.
-
-## Cara mengulang
+## Mengulang
 
 ```bash
 npm ci
@@ -59,9 +34,16 @@ npm run build
 npm start
 # Terminal lain:
 npx playwright install chromium
-# Jika Linux perlu dependensi sistem:
-npx playwright install-deps chromium
+# Linux bila perlu: npx playwright install-deps chromium
 npm run test:e2e
 ```
 
-Screenshot berada pada `test-results/`. Untuk server pada port lain, set `TEST_URL` sebelum menjalankan Playwright.
+`TEST_URL` dapat dipakai untuk server pada port lain. Empat tes kuis dan tes durasi memakai mode 2D; tes kontrol memakai dunia 3D sesungguhnya.
+
+## Batasan
+
+Belum diuji pada PID fisik sekolah, semua GPU/driver sentuh, atau Safari. Uji perangkat kelas sebelum pembelajaran. Skor hanya dalam memori halaman dan hilang setelah refresh. Bank soal berada pada kode browser; ini media pembelajaran, bukan platform ujian berisiko tinggi. Tidak ada push atau deployment ke akun pengguna.
+
+## Audio (kasus ke-12)
+
+Pengujian browser memantau pembuatan oscillator Web Audio: klik menghasilkan nada, musik menjadwalkan nada saat bermain, berhenti ketika pause/mute, dan mulai kembali ketika resume/unmute. Ini pemeriksaan jalur audio, bukan uji pendengaran/speaker perangkat fisik.
